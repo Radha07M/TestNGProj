@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="1" total="12" passed="11">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="49" started-at="2023-08-23T05:04:38Z" finished-at="2023-08-23T05:04:38Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="49" started-at="2023-08-23T05:04:38Z" finished-at="2023-08-23T05:04:38Z">
+      <class name="Suite2.parameters">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:Suite2.parameters@73846619]" name="beforeClass" is-config="true" duration-ms="1" started-at="2023-08-23T10:34:38Z" finished-at="2023-08-23T10:34:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:Suite2.parameters@73846619]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2023-08-23T10:34:38Z" finished-at="2023-08-23T10:34:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="paramaterTest(int, int, java.lang.String)[pri:0, instance:Suite2.parameters@73846619]" name="paramaterTest" duration-ms="1" started-at="2023-08-23T10:34:38Z" finished-at="2023-08-23T10:34:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[100]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[200]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Radha]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- paramaterTest -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:Suite2.parameters@73846619]" name="afterMethod" is-config="true" duration-ms="0" started-at="2023-08-23T10:34:38Z" finished-at="2023-08-23T10:34:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:Suite2.parameters@73846619]" name="afterClass" is-config="true" duration-ms="0" started-at="2023-08-23T10:34:38Z" finished-at="2023-08-23T10:34:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- Suite2.parameters -->
+      <class name="TestSuites.TestNGAttributes">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:TestSuites.TestNGAttributes@4bec1f0c]" name="beforeClass" is-config="true" duration-ms="1" started-at="2023-08-23T10:34:38Z" finished-at="2023-08-23T10:34:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:TestSuites.TestNGAttributes@4bec1f0c]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2023-08-23T10:34:38Z" finished-at="2023-08-23T10:34:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:TestSuites.TestNGAttributes@4bec1f0c]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2023-08-23T10:34:38Z" finished-at="2023-08-23T10:34:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:TestSuites.TestNGAttributes@4bec1f0c]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2023-08-23T10:34:38Z" finished-at="2023-08-23T10:34:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="mependentMethod()[pri:0, instance:TestSuites.TestNGAttributes@4bec1f0c]" name="mependentMethod" duration-ms="0" started-at="2023-08-23T10:34:38Z" description="Dependent method of alwaysRunMethod" finished-at="2023-08-23T10:34:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mependentMethod -->
+        <test-method status="PASS" signature="enabledMethod()[pri:0, instance:TestSuites.TestNGAttributes@4bec1f0c]" name="enabledMethod" duration-ms="0" started-at="2023-08-23T10:34:38Z" finished-at="2023-08-23T10:34:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enabledMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:TestSuites.TestNGAttributes@4bec1f0c]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2023-08-23T10:34:38Z" finished-at="2023-08-23T10:34:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:TestSuites.TestNGAttributes@4bec1f0c]" name="afterMethod" is-config="true" duration-ms="0" started-at="2023-08-23T10:34:38Z" finished-at="2023-08-23T10:34:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="lwaysRunMethod()[pri:0, instance:TestSuites.TestNGAttributes@4bec1f0c]" name="lwaysRunMethod" duration-ms="0" started-at="2023-08-23T10:34:38Z" depends-on-methods="TestSuites.TestNGAttributes.mependentMethod" finished-at="2023-08-23T10:34:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lwaysRunMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:TestSuites.TestNGAttributes@4bec1f0c]" name="afterMethod" is-config="true" duration-ms="0" started-at="2023-08-23T10:34:38Z" finished-at="2023-08-23T10:34:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:TestSuites.TestNGAttributes@4bec1f0c]" name="afterMethod" is-config="true" duration-ms="0" started-at="2023-08-23T10:34:38Z" finished-at="2023-08-23T10:34:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="priority0Method()[pri:0, instance:TestSuites.TestNGAttributes@4bec1f0c]" name="priority0Method" duration-ms="0" started-at="2023-08-23T10:34:38Z" finished-at="2023-08-23T10:34:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- priority0Method -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:TestSuites.TestNGAttributes@4bec1f0c]" name="afterMethod" is-config="true" duration-ms="0" started-at="2023-08-23T10:34:38Z" finished-at="2023-08-23T10:34:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="priority4Method()[pri:4, instance:TestSuites.TestNGAttributes@4bec1f0c]" name="priority4Method" duration-ms="0" started-at="2023-08-23T10:34:38Z" finished-at="2023-08-23T10:34:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- priority4Method -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:TestSuites.TestNGAttributes@4bec1f0c]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2023-08-23T10:34:38Z" finished-at="2023-08-23T10:34:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:TestSuites.TestNGAttributes@4bec1f0c]" name="afterMethod" is-config="true" duration-ms="0" started-at="2023-08-23T10:34:38Z" finished-at="2023-08-23T10:34:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:TestSuites.TestNGAttributes@4bec1f0c]" name="afterClass" is-config="true" duration-ms="0" started-at="2023-08-23T10:34:38Z" finished-at="2023-08-23T10:34:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- TestSuites.TestNGAttributes -->
+      <class name="Suite2.TestNgDataprovider">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:Suite2.TestNgDataprovider@3159c4b8]" name="beforeClass" is-config="true" duration-ms="0" started-at="2023-08-23T10:34:38Z" finished-at="2023-08-23T10:34:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="dataprovider1(java.lang.Integer)[pri:0, instance:Suite2.TestNgDataprovider@3159c4b8]" name="dataprovider1" duration-ms="1" started-at="2023-08-23T10:34:38Z" data-provider="TwoDigitNumbers" finished-at="2023-08-23T10:34:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dataprovider1 -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:Suite2.TestNgDataprovider@3159c4b8]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2023-08-23T10:34:38Z" finished-at="2023-08-23T10:34:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:Suite2.TestNgDataprovider@3159c4b8]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2023-08-23T10:34:38Z" finished-at="2023-08-23T10:34:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="dataprovider1(java.lang.Integer)[pri:0, instance:Suite2.TestNgDataprovider@3159c4b8]" name="dataprovider1" duration-ms="1" started-at="2023-08-23T10:34:38Z" data-provider="TwoDigitNumbers" finished-at="2023-08-23T10:34:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[20]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dataprovider1 -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:Suite2.TestNgDataprovider@3159c4b8]" name="afterMethod" is-config="true" duration-ms="0" started-at="2023-08-23T10:34:38Z" finished-at="2023-08-23T10:34:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="dataprovider2(java.lang.Integer)[pri:0, instance:Suite2.TestNgDataprovider@3159c4b8]" name="dataprovider2" duration-ms="1" started-at="2023-08-23T10:34:38Z" data-provider="TwoDigitNumbers" finished-at="2023-08-23T10:34:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dataprovider2 -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:Suite2.TestNgDataprovider@3159c4b8]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2023-08-23T10:34:38Z" finished-at="2023-08-23T10:34:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:Suite2.TestNgDataprovider@3159c4b8]" name="afterMethod" is-config="true" duration-ms="0" started-at="2023-08-23T10:34:38Z" finished-at="2023-08-23T10:34:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:Suite2.TestNgDataprovider@3159c4b8]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2023-08-23T10:34:38Z" finished-at="2023-08-23T10:34:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:Suite2.TestNgDataprovider@3159c4b8]" name="afterMethod" is-config="true" duration-ms="0" started-at="2023-08-23T10:34:38Z" finished-at="2023-08-23T10:34:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="dataprovider2(java.lang.Integer)[pri:0, instance:Suite2.TestNgDataprovider@3159c4b8]" name="dataprovider2" duration-ms="0" started-at="2023-08-23T10:34:38Z" data-provider="TwoDigitNumbers" finished-at="2023-08-23T10:34:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[20]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dataprovider2 -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:Suite2.TestNgDataprovider@3159c4b8]" name="afterMethod" is-config="true" duration-ms="0" started-at="2023-08-23T10:34:38Z" finished-at="2023-08-23T10:34:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:Suite2.TestNgDataprovider@3159c4b8]" name="afterClass" is-config="true" duration-ms="0" started-at="2023-08-23T10:34:38Z" finished-at="2023-08-23T10:34:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- Suite2.TestNgDataprovider -->
+      <class name="TestSuites.AnnotationHierarchy">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:TestSuites.AnnotationHierarchy@4b952a2d]" name="beforeSuite" is-config="true" duration-ms="16" started-at="2023-08-23T10:34:38Z" finished-at="2023-08-23T10:34:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="print()[pri:0, instance:TestSuites.AnnotationHierarchy@4b952a2d]" name="print" duration-ms="17" started-at="2023-08-23T10:34:38Z" description="This is my Testcase" finished-at="2023-08-23T10:34:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- print -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:TestSuites.AnnotationHierarchy@4b952a2d]" name="beforeTest" is-config="true" duration-ms="0" started-at="2023-08-23T10:34:38Z" finished-at="2023-08-23T10:34:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:TestSuites.AnnotationHierarchy@4b952a2d]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2023-08-23T10:34:38Z" finished-at="2023-08-23T10:34:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:TestSuites.AnnotationHierarchy@4b952a2d]" name="beforeClass" is-config="true" duration-ms="0" started-at="2023-08-23T10:34:38Z" finished-at="2023-08-23T10:34:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:TestSuites.AnnotationHierarchy@4b952a2d]" name="afterMethod" is-config="true" duration-ms="0" started-at="2023-08-23T10:34:38Z" finished-at="2023-08-23T10:34:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:TestSuites.AnnotationHierarchy@4b952a2d]" name="afterClass" is-config="true" duration-ms="0" started-at="2023-08-23T10:34:38Z" finished-at="2023-08-23T10:34:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:TestSuites.AnnotationHierarchy@4b952a2d]" name="afterSuite" is-config="true" duration-ms="0" started-at="2023-08-23T10:34:38Z" finished-at="2023-08-23T10:34:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- TestSuites.AnnotationHierarchy -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
