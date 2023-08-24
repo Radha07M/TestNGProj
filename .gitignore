@@ -1,0 +1,8 @@
+/target/
+.classpath
+.project
+/test-output/
+/test-output/Default suite/
+/test-output/junitreports/
+/test-output/old/
+/test-output/Suite/
