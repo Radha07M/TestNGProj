@@ -1,4 +1,5 @@
-target/**
 .classpath
 .project
-test-output/**
+.settings/
+target/
+test-output/
