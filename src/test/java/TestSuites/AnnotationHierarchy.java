@@ -1,5 +1,7 @@
 package TestSuites;
 
+import java.lang.reflect.Method;
+
 import org.testng.annotations.*;
 
 import com.fasterxml.jackson.databind.deser.ValueInstantiator.Gettable;
@@ -37,8 +39,8 @@ public class AnnotationHierarchy {
 	}
 	
 	@BeforeMethod
-	public void beforeMethod() {
-		System.out.println("-------Testcase started-------\n");
+	public void beforeMethod(Method method) {
+		System.out.println("\n---------"+method.getName()+" Testcase started-----------\n");
 	}
 	
 	@AfterMethod
