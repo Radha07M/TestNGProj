@@ -40,6 +40,11 @@ public class TestNgDataprovider {
 	public void afterMethod() {
 		System.out.println("\n-------Testcase Finised-------");
 	}
+
+	@AfterMethod
+	public void afterMethod2() {
+		System.out.println("\n-------Testcase Finised-------");
+	}
 	
 	
 }
